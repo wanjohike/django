@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block body %}
+    {% for post in posts %} 
+        {{post.text}}
+
+        <hr>
+    {% end for %}
+{%end block %}
